@@ -12,7 +12,7 @@ Most organisations trying to adopt AI have the same gap: they have data, they ha
 
 I build that system — data ingestion and validation, AI model integration, structured output pipelines, approval gates, and client-facing interfaces — as repeatable, auditable infrastructure.
 
-Current focus: AI integration, pipeline architecture, prompt engineering, model testing and validation, and operational automation for businesses without dedicated data teams.
+Current focus: AI integration, pipeline architecture, prompt engineering, model testing and validation, operational knowledge capture, and AI governance for businesses without dedicated data teams.
 
 ---
 
@@ -67,7 +67,14 @@ Restaurant · Retail · Salon & Beauty · Gym & Fitness · Trades · E-commerce
 
 **[AI Pipeline Systems →](https://github.com/AlexNeil002/AI-Pipeline-Systems)**
 
-Full methodology, architecture, and validated client results. Includes the 8-stage pipeline design, tiered automation model, multi-model orchestration approach, and Nok Nok delivery detail.
+Full methodology, architecture, and validated client results. Six docs covering:
+
+- 8-stage pipeline design and automation tiers
+- Multi-model orchestration (Claude Code, Codex, Notion task hub)
+- Operational knowledge capture (kitchen intake, supplier intake, legacy sources)
+- Client-facing system architecture (dashboard layers, approval chain, Notion backend)
+- Agency scaffold and learning loop (relay system, repeatable templates)
+- Per-vertical implementation notes with real Nok Nok delivery data
 
 ---
 
