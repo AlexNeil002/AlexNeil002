@@ -28,7 +28,7 @@ flowchart LR
 
 I founded **Osgiliath Intel Ltd** to build useful AI, integration and operational systems for businesses.
 
-- **Company website:** [Osgiliath Intel](https://osgiliathintel.com)
+- **Company website:** Osgiliath's site will be linked after its public launch
 - **Public developer showcase:** company GitHub organisation and demos will be linked here once created and reviewed
 
 The public-facing company profile will show approved architectural examples, technical documentation and demonstrations. My client repositories, internal automation, business systems, confidential datasets and unreleased code remain private.
