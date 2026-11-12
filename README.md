@@ -1,54 +1,42 @@
 # Alex Neil
 
-**Founder, Osgiliath Intel Ltd** · AI systems engineering · data integration · operational automation
+**AI systems engineer · Founder, Osgiliath Intel Ltd**
 
-I build practical systems that connect business data, software, models, human decisions and measurable outcomes. My focus is not a model in isolation: it is the full path from a trustworthy source to an observable, reviewable action.
+I design the connections between software, data, AI models, people and real-world operations. My interests include dependable agent systems, structured-data intelligence, practical automation, and clear interfaces for complex work.
 
-## What I work on
+## What I build
 
-- **AI and data integration** — ingestion, validation, structured pipelines and model interfaces.
-- **Operational systems** — workflows, decision support, approval gates and human-in-the-loop automation.
-- **Agent engineering** — model/tool routing, evaluation, tracing, permissions and reliable handoffs.
-- **Product interfaces** — dashboards and software portals that make the state of a business understandable.
+- **AI systems and orchestration** — practical integrations, task routing, tool use, evidence capture and human approvals.
+- **Data engineering** — reliable data ingestion, contracts, validation and evaluation.
+- **Operational interfaces** — bringing workflows, outcomes, applications and decision-making into one understandable view.
+- **Applied research** — comparing model, tool and deployment choices for real use cases.
 
-## How the systems fit together
+## How I think about systems
 
 ```mermaid
 flowchart LR
-    A["Business systems"] --> B["Validated data"]
-    B --> C["Models and workflows"]
-    C --> D["Evidence and review"]
-    D --> E["Approved actions"]
-    E --> F["Operational outcomes"]
-    F --> D
+  A[Data and applications] --> B[Validation]
+  B --> C[Models and workflows]
+  C --> D[Review and evidence]
+  D --> E[Approved action]
+  E --> F[Measured outcome]
 ```
 
-**Design principles:** source-of-truth boundaries · evidence over assertions · explicit approvals · reproducible testing · clear ownership.
+**Principles:** evidence over hype · clear ownership · secure boundaries · humans control consequential actions · build, test, improve.
 
-## Selected public work
+## Osgiliath Intel
 
-### [AI Pipeline Systems](https://github.com/AlexNeil002/AI-Pipeline-Systems)
+I founded **Osgiliath Intel Ltd** to build useful AI, integration and operational systems for businesses.
 
-A public technical showcase of the architecture, methods and documentation behind AI-enabled business pipelines. It covers ingestion and schema validation, model integration, operational review, and reusable delivery patterns.
+- **Company website:** [Osgiliath Intel](https://osgiliathintel.com)
+- **Public developer showcase:** company GitHub organisation and demos will be linked here once created and reviewed
 
-> Public material is a curated technical showcase. Internal client implementations, private data, credentials and unreleased model work are not published here.
+The public-facing company profile will show approved architectural examples, technical documentation and demonstrations. My client repositories, internal automation, business systems, confidential datasets and unreleased code remain private.
 
-## Technology areas
+## Areas of interest
 
-| Area | Tools and approaches |
-| --- | --- |
-| Engineering | Python · TypeScript · React · GitHub |
-| Data and validation | SQL · DuckDB · Pandera · PostgreSQL |
-| AI and evaluation | Claude · OpenAI models · model gateways · evaluation harnesses |
-| Automation | n8n · APIs · event-driven workflows |
-| Deployment and observation | Cloudflare · containers · CI/CD · traces and test evidence |
-
-## Working with Osgiliath
-
-Osgiliath Intel Ltd develops reusable AI and operational systems for businesses. Public repositories and demonstrations will be shared when their ownership, licensing, security and factual claims have been reviewed.
-
-**Current themes:** multi-business operating systems, agent orchestration, model evaluation, operational data interfaces and client-ready implementation patterns.
+Python · TypeScript · React · data engineering · model evaluation · agent harnesses · GitHub · CI/CD · observability · reproducible experiments
 
 ---
 
-*Public implementations are intentionally narrower than the private engineering estate. No confidential client material or proprietary model weights are implied by this profile.*
+*This public profile describes my engineering interests and approach. It does not grant access to private repositories or imply that all prototypes and research are production services.*
