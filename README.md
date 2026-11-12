@@ -1,81 +1,54 @@
 # Alex Neil
 
-## AI Systems Builder — Integration, Pipelines, and Operational Automation
+**Founder, Osgiliath Intel Ltd** · AI systems engineering · data integration · operational automation
 
-I build systems that connect real business data to AI models and deliver the output into working operations. Currently building and delivering AI operational systems for SMB clients through my own agency.
+I build practical systems that connect business data, software, models, human decisions and measurable outcomes. My focus is not a model in isolation: it is the full path from a trustworthy source to an observable, reviewable action.
 
----
+## What I work on
 
-## What I Do
+- **AI and data integration** — ingestion, validation, structured pipelines and model interfaces.
+- **Operational systems** — workflows, decision support, approval gates and human-in-the-loop automation.
+- **Agent engineering** — model/tool routing, evaluation, tracing, permissions and reliable handoffs.
+- **Product interfaces** — dashboards and software portals that make the state of a business understandable.
 
-Most organisations trying to adopt AI have the same gap: they have data, they have access to models, and no reliable system connecting the two in a way that can be trusted and maintained.
+## How the systems fit together
 
-I build that system — data ingestion and validation, AI model integration, structured output pipelines, approval gates, and client-facing interfaces — as repeatable, auditable infrastructure.
-
-Current focus: AI integration, pipeline architecture, prompt engineering, model testing and validation, operational knowledge capture, and AI governance for businesses without dedicated data teams.
-
----
-
-## Live Work
-
-### Nok Nok Restaurant — Client 001 (Active)
-
-AI operational system for a restaurant in Mumbles, Wales. Full pipeline built on real POS and bookings data.
-
-- 46,304 POS transaction rows ingested, cleaned, and validated
-- 5,000 booking records processed
-- Revenue forecasting, contribution margin engine, and no-show scoring live
-- 44/44 tests passing on no-show model
-- Weekly review pack with operator approval log in active use
-- HTML dashboard auto-refreshing every 5 minutes, bookmarked by client
-
----
-
-## Stack
-
-| Layer | Tools |
-| --- | --- |
-| AI models | Claude (Anthropic), OpenAI Codex / GPT |
-| Language | Python |
-| Data ingestion | dlt |
-| Schema validation | Pandera |
-| Local analytics | DuckDB |
-| Workflow automation | n8n (self-hosted, Docker) |
-| Task and context hub | Notion |
-| Version control | GitHub |
-| Client interface | HTML dashboards |
-
----
-
-## How I Work
-
-```text
-Plan → Delegate → Build → Validate → Review → Approve → Ship
+```mermaid
+flowchart LR
+    A["Business systems"] --> B["Validated data"]
+    B --> C["Models and workflows"]
+    C --> D["Evidence and review"]
+    D --> E["Approved actions"]
+    E --> F["Operational outcomes"]
+    F --> D
 ```
 
-Every task is planned before a line of code is written. Tasks live in Notion with structured prompts — delegated to Claude Code or Codex based on task type and cost. Context flows between models and sessions through CLAUDE.md persistent context files. Every data source has a contract before any logic runs on it. Every model output is tested and confidence-marked. Branch-per-task on GitHub throughout.
+**Design principles:** source-of-truth boundaries · evidence over assertions · explicit approvals · reproducible testing · clear ownership.
+
+## Selected public work
+
+### [AI Pipeline Systems](https://github.com/AlexNeil002/AI-Pipeline-Systems)
+
+A public technical showcase of the architecture, methods and documentation behind AI-enabled business pipelines. It covers ingestion and schema validation, model integration, operational review, and reusable delivery patterns.
+
+> Public material is a curated technical showcase. Internal client implementations, private data, credentials and unreleased model work are not published here.
+
+## Technology areas
+
+| Area | Tools and approaches |
+| --- | --- |
+| Engineering | Python · TypeScript · React · GitHub |
+| Data and validation | SQL · DuckDB · Pandera · PostgreSQL |
+| AI and evaluation | Claude · OpenAI models · model gateways · evaluation harnesses |
+| Automation | n8n · APIs · event-driven workflows |
+| Deployment and observation | Cloudflare · containers · CI/CD · traces and test evidence |
+
+## Working with Osgiliath
+
+Osgiliath Intel Ltd develops reusable AI and operational systems for businesses. Public repositories and demonstrations will be shared when their ownership, licensing, security and factual claims have been reviewed.
+
+**Current themes:** multi-business operating systems, agent orchestration, model evaluation, operational data interfaces and client-ready implementation patterns.
 
 ---
 
-## Verticals
-
-Restaurant · Retail · Salon & Beauty · Gym & Fitness · Trades · E-commerce
-
----
-
-## Showcase
-
-**[AI Pipeline Systems →](https://github.com/AlexNeil002/AI-Pipeline-Systems)**
-
-Full methodology, architecture, and validated client results. Six docs covering:
-
-- 8-stage pipeline design and automation tiers
-- Multi-model orchestration (Claude Code, Codex, Notion task hub)
-- Operational knowledge capture (kitchen intake, supplier intake, legacy sources)
-- Client-facing system architecture (dashboard layers, approval chain, Notion backend)
-- Agency scaffold and learning loop (relay system, repeatable templates)
-- Per-vertical implementation notes with real Nok Nok delivery data
-
----
-
-*Open to AI integration, pipeline engineering, and AI operations roles. Available for contract and full-time engagements.*
+*Public implementations are intentionally narrower than the private engineering estate. No confidential client material or proprietary model weights are implied by this profile.*
